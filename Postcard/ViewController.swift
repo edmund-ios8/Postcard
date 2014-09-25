@@ -29,7 +29,7 @@ class ViewController: UIViewController {
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         // code will evaluate when we press the button
-        
+        // adding a new comment here to test this
         messageLabel.text = enterMessageTextField.text
         messageLabel.hidden = false
         enterMessageTextField.text = ""
